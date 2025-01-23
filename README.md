@@ -21,7 +21,7 @@
 To run the project:
 1. Clone the repository:
     ```
-    $ git clone <https://github.com/parsarezaee/saho-task>
+    $ git clone https://github.com/parsarezaee/saho-task
     ```
 2. Navigate to the project directory:
     ```
