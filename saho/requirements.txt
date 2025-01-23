@@ -2,9 +2,15 @@ asgiref==3.7.2
 Django==4.2
 djangorestframework==3.15.0
 djangorestframework-simplejwt==5.3.1
+drf-yasg==1.21.8
 exceptiongroup==1.2.2
+inflection==0.5.1
+packaging==24.2
 psycopg2-binary==2.9.5
 PyJWT==2.10.1
 python-dotenv==1.0.1
+pytz==2024.2
 PyYAML==6.0.1
 sqlparse==0.5.3
+typing_extensions==4.12.2
+uritemplate==4.1.1

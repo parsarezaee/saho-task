@@ -1,0 +1,20 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$600000$r6WHSgKbAihxLbsWJgCr9l$w1N2442V6G3iXMsbZy/WcfIyfD0lcd4tb04t/F8iHpo=",
+        "last_login": "2025-01-23T14:32:03.917Z",
+        "is_superuser": true,
+        "username": "parsa",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-01-23T14:30:05.677Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

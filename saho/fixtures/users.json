@@ -1,0 +1,194 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "username": "user1",
+            "password": "pbkdf2_sha256$216000$randomhash1", 
+            "email": "user1@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "username": "user2",
+            "password": "pbkdf2_sha256$216000$randomhash2",
+            "email": "user2@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "username": "user3",
+            "password": "pbkdf2_sha256$216000$randomhash3",
+            "email": "user3@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "username": "user4",
+            "password": "pbkdf2_sha256$216000$randomhash4",
+            "email": "user4@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "username": "user4",
+            "password": "pbkdf2_sha256$216000$randomhash4",
+            "email": "user4@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "username": "user5",
+            "password": "pbkdf2_sha256$216000$randomhash5",
+            "email": "user5@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "username": "user6",
+            "password": "pbkdf2_sha256$216000$randomhash6",
+            "email": "user6@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "username": "user7",
+            "password": "pbkdf2_sha256$216000$randomhash7",
+            "email": "user7@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 8,
+        "fields": {
+            "username": "user8",
+            "password": "pbkdf2_sha256$216000$randomhash8",
+            "email": "user8@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 9,
+        "fields": {
+            "username": "user9",
+            "password": "pbkdf2_sha256$216000$randomhash9",
+            "email": "user9@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 10,
+        "fields": {
+            "username": "user10",
+            "password": "pbkdf2_sha256$216000$randomhash10",
+            "email": "user10@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 11,
+        "fields": {
+            "username": "user11",
+            "password": "pbkdf2_sha256$216000$randomhash11",
+            "email": "user11@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 12,
+        "fields": {
+            "username": "user12",
+            "password": "pbkdf2_sha256$216000$randomhash12",
+            "email": "user12@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 13,
+        "fields": {
+            "username": "user13",
+            "password": "pbkdf2_sha256$216000$randomhash13",
+            "email": "user13@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 14,
+        "fields": {
+            "username": "user14",
+            "password": "pbkdf2_sha256$216000$randomhash14",
+            "email": "user14@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 15,
+        "fields": {
+            "username": "user15",
+            "password": "pbkdf2_sha256$216000$randomhash15",
+            "email": "user15@example.com",
+            "is_staff": false,
+            "is_superuser": false,
+            "is_active": true
+        }
+    }
+]
