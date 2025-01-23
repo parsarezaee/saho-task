@@ -1,0 +1,44 @@
+services:
+  saho:
+    build: .
+    container_name: saho_web
+    command: python3 manage.py runserver 0.0.0.0:8003
+    restart: always
+    volumes:
+      - .:/code
+    ports:
+      - "8003:8003"
+    env_file:
+      - ./.env
+    depends_on:
+      postgres_db:
+        condition: service_started
+    environment:
+      DB_NAME: "saho"
+      DB_USER: "parsa"
+      DB_PASSWORD: "parsa1234"
+      DB_HOST: "saho_db"
+      DB_PORT: "5432"
+    networks:
+      - saho_network
+  
+  postgres_db:
+    image: postgres:15-alpine
+    container_name: saho_db
+    environment:
+      - POSTGRES_USER=parsa
+      - POSTGRES_PASSWORD=parsa1234
+      - POSTGRES_DB=saho
+    volumes:
+      - saho-data:/var/lib/postgresql/data/
+    networks:
+      - saho_network
+    healthcheck:
+          test: "exit 0"
+
+networks:
+  saho_network:
+    driver: bridge
+  
+volumes:
+  saho-data:
